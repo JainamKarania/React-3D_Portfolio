@@ -8,27 +8,26 @@ import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
 const Contact = () => {
-  const formRef = useRef();
-  const [submitted, setSubmitted] = useState(false);
   const form = useRef();
+  const [submitted, setSubmitted] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_w2pewhc', 'template_udy55lh', form.current, {
-        publicKey: 'fm9ENp2Fb7LTA-enc',
-      })
-      .then(
-        () => {
-          console.log('SUCCESS!');
-          setSubmitted(true);
-        },
-        (error) => {
-          console.log('FAILED...', error.text);
-        },
-      );
-  };
+    .sendForm('service_w2pewhc', 'template_udy55lh', form.current, {
+      publicKey: 'fm9ENp2Fb7LTA-enc',
+    })
+    .then(
+      () => {
+        console.log('SUCCESS!');
+        setSubmitted(true);
+      },
+      (error) => {
+        console.log('FAILED...', error.text);
+      },
+    );
+};
 
   return (
     <div
