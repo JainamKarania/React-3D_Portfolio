@@ -32,7 +32,7 @@ return(
 const AboutMe = () => {
   return (
     <>
-     <motion.div variants={textVariant()}>
+     <motion.div variants={textVariant()} className='mt-[200px] md:mt-0'>
       <p className={`${Style.sectionSubText}`}>Introduction</p>
       <p className={`${Style.sectionHeadText}`}>Overview</p>
      </motion.div>
