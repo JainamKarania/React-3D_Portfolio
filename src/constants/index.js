@@ -137,33 +137,33 @@ import {
   ];
     const projects = [
       {
-        name: "TheMoviesHub",
+        name: "I-Task TaskManager",
         description:
-          "ptimized this web application, achieving a 10% improvement in website rendering speed.Crafted this website leveraging the power of React,Redux,Tailwind CSS, Javascript and Firebase Authentication",
+          "The Task Manager is a comprehensive web application designed to help users efficiently organize, track, and manage their tasks. Built using the MERN stack , this application ensures a seamless and responsive user experience, leveraging the power of modern web development technologies.",
         tags: [
           {
             name: "React",
             color: "blue-text-gradient",
           },
           {
-            name: "Redux",
-            color: "purple-text-gradient",
+            name: "MongoDB",
+            color: "yellow-text-gradient",
           },
           {
-            name: "Mongodb",
+            name: "Node.js",
             color: "green-text-gradient",
           },
           {
-            name: "RestAPI",
-            color: "green-text-gradient",
+            name: "Express.js",
+            color: "yellow-text-gradient",
           },
           {
             name: "Tailwind CSS",
             color: "pink-text-gradient",
           },
         ],
-        image: 'https://wallpaperset.com/w/full/6/d/3/366121.jpg' ,
-        source_code_link: "https://github.com/JainamKarania/the-movies-hub.git",
+        image: 'https://cdn2.iconfinder.com/data/icons/metro-ui-dock/512/Task_Manager.png',
+        source_code_link: "https://github.com/JainamKarania/I-taskManager",
       },
       {
         name: "ZebraLearn",
