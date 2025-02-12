@@ -8,7 +8,6 @@ import {
     tailwind,
     nodejs,
     mongodb,
-    git,
     figma,
     next,
     threejs,
@@ -19,6 +18,8 @@ import {
     frontend,
     mern
   } from "../assets";
+  import pureconnectt from "../assets/sq.png";
+  import pclogo from "../assets/Logowhite.png";
   
   export const navLinks = [
     {
@@ -36,21 +37,17 @@ import {
   ];
   
   const services = [
-    {
-      title: "MERN Stack Developer",
-      icon: mern,
-    },
-    {
-      title: "Webflow Developer",
-      icon: webflow,
-    },
-    {
+{
       title: "React Developer",
       icon: reactgradient,
     },
     {
       title: "Frontend Developer",
       icon: frontend,
+    },
+    {
+      title: "Webflow Developer",
+      icon: webflow,
     },
   ];
   
@@ -111,6 +108,18 @@ import {
   
   const experiences = [
     {
+      title: "Lead Front-End Developer",
+      company_name: "PureConnectt Technologies",
+      icon: freelance,
+      iconBg: "#383E56",
+      date: "Oct 2024 - Feb 2025",
+      points: [
+        "Developed and maintained the PureConnectt hiring portal, leveraging technologies ReactJS, Tailwind CSS, Recharts, and other modern frontend tools.", 
+        "Designed and implemented the PureConnect Score feature, providing data-driven insights to evaluate candidates' potential fit, streamlining recruitment for employers.",  
+        "High level site execution by decreasing reloading times and ensuring smooth changes across all pages, overhauling client experience." 
+      ],
+    },
+    {
       title: "Webflow & Front-End Developer",
       company_name: "TheCSSAgency",
       icon: company_logo,
@@ -137,33 +146,29 @@ import {
   ];
     const projects = [
       {
-        name: "I-Task TaskManager",
+        name: "PureConnectt - Hire With Confidence",
         description:
-          "The Task Manager is a comprehensive web application designed to help users efficiently organize, track, and manage their tasks. Built using the MERN stack , this application ensures a seamless and responsive user experience, leveraging the power of modern web development technologies.",
+        "Pureconnectt is a hiring portal that leverages an employee score to streamline recruitment. This score provides a quick, data-driven insight into candidates’ potential fit, helping employers make informed hiring decisions efficiently - ReactJS, Tailwind CSS, JavaScript, PHP, MySQL.",
         tags: [
           {
             name: "React",
             color: "blue-text-gradient",
           },
           {
-            name: "MongoDB",
+            name: "Javascript",
             color: "yellow-text-gradient",
           },
           {
-            name: "Node.js",
+            name: "Php",
             color: "green-text-gradient",
-          },
-          {
-            name: "Express.js",
-            color: "yellow-text-gradient",
           },
           {
             name: "Tailwind CSS",
             color: "pink-text-gradient",
           },
         ],
-        image: 'https://cdn2.iconfinder.com/data/icons/metro-ui-dock/512/Task_Manager.png',
-        source_code_link: "https://github.com/JainamKarania/I-taskManager",
+        image: pureconnectt,
+        source_code_link: "https://www.pureconnectt.com/",
       },
       {
         name: "ZebraLearn",

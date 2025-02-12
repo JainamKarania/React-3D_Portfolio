@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import styles from "../Style";
 import { FaLinkedin , FaGithub} from "react-icons/fa";
 import HeroImage from "../assets/heroImage.png"
-import Resume from '../assets/Jainam_Resume.pdf';
+import Resume from '../assets/Jainamkarania_Resume.pdf';
 const Hero = () => {
   return (
     <section className={`relative w-full h-screen mx-auto`}>
