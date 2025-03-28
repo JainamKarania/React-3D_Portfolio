@@ -197,16 +197,12 @@ import {
           "Designed and developed this website using Webflow and Javascript. This website has a great user experience as you navigate through this user-friendly platform having 30% of smooth routing between the pages.",
         tags: [
           {
-            name: "React",
+            name: "Webflow",
             color: "blue-text-gradient",
           },
           {
             name: "Javascript",
             color: "yellow-text-gradient",
-          },
-          {
-            name: "Tailwind CSS",
-            color: "pink-text-gradient",
           },
         ],
         image: 'https://www.akamai.com/site/im-demo/perceptual-standard.jpg?imbypass=true',
