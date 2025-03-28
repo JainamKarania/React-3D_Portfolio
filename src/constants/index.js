@@ -192,9 +192,9 @@ import {
         source_code_link: "https://jainams-fabulous-site-66c1f3.webflow.io/",
       },
       {
-        name: "Wonders of India",
+        name: "Harrison Forbes",
         description:
-          "Implemented a user-friendly website, ensuring 30% smooth routing between pages and contributing to a positive user experience.Unveil the wonders of India with us, uncovering the hidden treasures of this magnificent land.",
+          "Designed and developed this website using Webflow and Javascript. This website has a great user experience as you navigate through this user-friendly platform having 30% of smooth routing between the pages.",
         tags: [
           {
             name: "React",
@@ -210,7 +210,7 @@ import {
           },
         ],
         image: 'https://www.akamai.com/site/im-demo/perceptual-standard.jpg?imbypass=true',
-        source_code_link: "https://wonders-of-india.vercel.app/",
+        source_code_link: "https://harrisonforbes.webflow.io/",
       },
   ];
 
