@@ -112,7 +112,7 @@ import {
       company_name: "PureConnectt Technologies",
       icon: freelance,
       iconBg: "#383E56",
-      date: "Oct 2024 - Feb 2025",
+      date: "April 2024 - Feb 2025",
       points: [
         "Developed and maintained the PureConnectt hiring portal, leveraging technologies ReactJS, Tailwind CSS, Recharts, and other modern frontend tools.", 
         "Designed and implemented the PureConnect Score feature, providing data-driven insights to evaluate candidates' potential fit, streamlining recruitment for employers.",  
